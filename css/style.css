@@ -48,3 +48,42 @@ body{
   border: none;
   margin: 15px 0px;
 }
+
+.login__notice{
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+.login__help i{
+  margin-right: 5px;
+}
+
+.login__business{
+  border-top: 1px solid rgba(0,0,0,0.4);
+  margin-top: 25px;
+}
+.login__business a{
+  text-decoration: none;
+}
+
+.create-account{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0px;
+  position: relative;
+}
+.divider{
+  width: 500px;
+  height: 1px;
+  background-color: rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+.create-account__title{
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+  position: absolute;
+  top: -10px;
+  background-color: white;
+  padding: 0px 10px;
+}
